@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ThemeAndStyles</string>
+    <string name="day_night_mode_text">This is a day mode</string>
+</resources>
