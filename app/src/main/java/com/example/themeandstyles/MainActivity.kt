@@ -1,5 +1,6 @@
 package com.example.themeandstyles
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatDelegate
@@ -19,6 +20,10 @@ class MainActivity : AppCompatActivity() {
             if (isNightMode) AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
             else AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
             isNightMode = !isNightMode
+        }
+
+        binding.goToAnimatedButtons.setOnClickListener {
+            startActivity(Intent(this, AnimatedButtonsActivity::class.java))
         }
     }
 }

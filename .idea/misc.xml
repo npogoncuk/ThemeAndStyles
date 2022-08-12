@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidStudioProjects/Epam/ThemeAndStyles/app/src/main/res/layout-night/activity_main.xml" value="0.253125" />
+        <entry key="..\:/AndroidStudioProjects/Epam/ThemeAndStyles/app/src/main/res/layout/activity_animated_buttons.xml" value="0.24010416666666667" />
         <entry key="..\:/AndroidStudioProjects/Epam/ThemeAndStyles/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
+        <entry key="..\:/AndroidStudioProjects/Epam/ThemeAndStyles/app/src/main/res/layout/activity_transition.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
