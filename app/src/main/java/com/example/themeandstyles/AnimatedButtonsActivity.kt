@@ -58,6 +58,15 @@ class AnimatedButtonsActivity : AppCompatActivity() {
                 val activityOptions = ActivityOptions.makeSceneTransitionAnimation(this@AnimatedButtonsActivity, it, "transitionButton")
                 startActivity(intent, activityOptions.toBundle())
             }
+
+            textView.text = getString(R.string.number, 0f)
+            textView.setOnClickListener {
+                with(ValueAnimator.ofFloat(0f, 5000f)) {
+                    duration = 5000
+                    addUpdateListener { textView.text = getString(R.string.number, it?.animatedValue as Float) }
+                    start()
+                }
+            }
         }
 
 

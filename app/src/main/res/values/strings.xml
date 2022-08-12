@@ -6,4 +6,5 @@
     <string name="viewpropertyanimator">ViewPropertyAnimator</string>
     <string name="transition">Transition</string>
     <string name="go_to_animated_buttons">Go to Animated Buttons</string>
+    <string name="number">Number: %f</string>
 </resources>
